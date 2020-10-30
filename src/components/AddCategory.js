@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 const AddCategory = ({setcategories}) => {
 
-    const [inputValue, setinputValue] = useState('');
+    const [inputValue, setinputValue] = useState('Inserte una categoria');
 
     const handleInputChange = (e) => {
         setinputValue(e.target.value);
