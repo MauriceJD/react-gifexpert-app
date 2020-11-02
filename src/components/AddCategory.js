@@ -13,7 +13,7 @@ const AddCategory = ({setcategories}) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (inputValue.trim().length > 2) {
-            setcategories( categories => [inputValue, ...categories])
+            setcategories( categories => [inputValue])
             setinputValue('')
         }
     }
