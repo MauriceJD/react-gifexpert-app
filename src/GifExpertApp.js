@@ -10,6 +10,8 @@ const GifExpertApp = () =>{
     //     setcategories([...categories, 'Bojack Horseman']) 
     // }
 
+    console.log(categories)
+
     return(
         <>
             <h2>
